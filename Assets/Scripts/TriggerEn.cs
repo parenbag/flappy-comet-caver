@@ -49,7 +49,7 @@ public class TriggerEn : MonoBehaviour
 
     private IEnumerator RepeatActionCoroutine()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(7f);
         Active = true;
 
         while (true)

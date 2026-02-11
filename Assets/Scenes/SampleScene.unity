@@ -1194,7 +1194,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800549721}
   serializedVersion: 8
-  lengthInSec: 1.5
+  lengthInSec: 2
   simulationSpeed: 0.5
   stopAction: 0
   cullingMode: 0
@@ -1205,7 +1205,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -1259,7 +1259,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -1269,7 +1269,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.35
+      scalar: 0.2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1440,7 +1440,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.49
+      scalar: 3.44
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1764,7 +1764,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5.05
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1816,7 +1816,7 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 1
+    enabled: 0
     type: 4
     angle: 0
     length: 5
@@ -2453,7 +2453,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -2644,11 +2644,11 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -20.27
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5093,7 +5093,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5143,7 +5143,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minVertexDistance: 0.2
+    minVertexDistance: 0.05
     textureMode: 0
     textureScale: {x: 1, y: 1}
     ribbonCount: 1
@@ -5153,7 +5153,7 @@ ParticleSystem:
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
     inheritParticleColor: 1
-    generateLightingData: 0
+    generateLightingData: 1
     splitSubEmitterRibbons: 0
     attachRibbonsToTransform: 0
     colorOverLifetime:
@@ -6163,19 +6163,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.74102455
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.67147803
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6187,7 +6187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1170372700666217113, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -84.362
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1343490000085975279, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: looping
@@ -6281,6 +6281,14 @@ PrefabInstance:
       propertyPath: m_RenderAlignment
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4912019044417903754, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912019044417903754, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 8628240599799774712, guid: 0ab5c381756b2b74fa5c067c5098defb, type: 3}
       propertyPath: m_IsTrigger
       value: 0
